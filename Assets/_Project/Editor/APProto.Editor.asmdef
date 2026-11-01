@@ -1,0 +1,6 @@
+{
+    "name": "APProto.Editor",
+    "rootNamespace": "APProto.EditorTools",
+    "references": ["APProto", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.InputSystem"],
+    "includePlatforms": ["Editor"]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "APProto",
+    "rootNamespace": "APProto",
+    "references": ["Unity.TextMeshPro", "UnityEngine.UI", "Unity.InputSystem"],
+    "autoReferenced": true
+}

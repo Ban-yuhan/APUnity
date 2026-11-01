@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a3c7feca76bed46a3ab1467e67d4dc, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::APProto.GameConfig
+  startMoney: 2000
+  startReputation: 50
+  maintenancePerSecond: 0.5
+  regions:
+  - region: 1
+    displayName: "\uB300\uAD6C"
+    color: {r: 0.9529412, g: 0.6117647, b: 0.07058824, a: 1}
+    priceMultiplier: 1
+    unlockCost: 0
+  - region: 2
+    displayName: "\uBD80\uC0B0"
+    color: {r: 0, g: 0.53333336, b: 1, a: 1}
+    priceMultiplier: 1.35
+    unlockCost: 1500
+  - region: 3
+    displayName: "\uC11C\uC6B8"
+    color: {r: 0.18039216, g: 0.8, b: 0.44313726, a: 1}
+    priceMultiplier: 1.7
+    unlockCost: 3500
+  unscannedBoxColor: {r: 0.83137256, g: 0.6392157, b: 0.4509804, a: 1}
+  inboundTruckCapacity: 10
+  inboundTruckWaitTime: 20
+  inboundTruckInterval: 25
+  inboundDockCapacity: 10
+  inboundArriveSpeed: 14
+  inboundDepartSpeed: 18
+  outboundTruckCapacity: 10
+  minDepartureCount: 5
+  basePrice: 320
+  fuelCost: 150
+  fullLoadBonus: 600
+  fullLoadReputation: 10
+  outboundRackCapacity: 20
+  autoDepartDelay: 2
+  outboundAwayTime: 6
+  outboundArriveSpeed: 14
+  outboundDepartSpeed: 20
+  padActionDuration: 3
+  transferInterval: 0.18
+  playerMoveSpeed: 5.2
+  playerCapacity: 4
+  playerWorkSpeed: 1
